@@ -1,0 +1,30 @@
+name: todoapp
+description: "a simple and efficient to-do list application built using Flutter and GetX for state management. The app allows users to manage their tasks seamlessly with a user-friendly interface."
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.3
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  get: ^4.6.1
+  google_fonts: ^6.2.1
+
+    
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+
+
+flutter:
+
+  uses-material-design: true
